@@ -1,0 +1,26 @@
+#left-side, #right-side
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#left-side img, #right-side img
+{
+	align-self: center;
+	height: 175px;
+	margin: 16px;
+}
+
+#left-side
+{
+	position: absolute;
+	width: 50%;
+	left: 0;
+}
+
+#right-side
+{
+	position: absolute;
+	width: 50%;
+	right: 0;
+}

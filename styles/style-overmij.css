@@ -1,0 +1,62 @@
+#info-logo
+{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+	/* width: 100vh;
+	height: 100vh; */
+	top: 0;
+	bottom: 580px;
+	left: 0;
+	right: 0; /* we adore css */
+}
+
+#naam
+{
+	font-size: 64px;
+}
+
+#logo
+{
+	position: static;
+}
+
+#over-mij-options img
+{
+	height: 150px;
+}
+
+#wiebenik-button
+{
+	position: relative;
+	top: 20px;
+	left: -240px;
+	right: 0;
+	bottom: 0;
+}
+
+#watdoeik-button
+{
+	position: relative;
+	top: 0px;
+	left: 250px;
+	right: 0;
+	bottom: 0;
+}
+
+#hobbys-button
+{
+	position: relative;
+	top: -35px;
+	left: -150px;
+	right: 0;
+	bottom: 0;
+}
+
+#return-button
+{
+	right: 36px;
+}

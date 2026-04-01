@@ -1,0 +1,11 @@
+h1, p
+{
+	text-align: center;
+	font-size: 64px;
+	margin: 6px;
+}
+
+#left-side, #right-side
+{
+	position: absolute;
+}
