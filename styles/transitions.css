@@ -1,0 +1,17 @@
+/* Transitions */
+nav a
+{
+	transition: background-color 0.25s, color 0.25s, font-size 0.25s;
+}
+
+#image-previewer
+{
+	transition: background-color 0.25s;
+}
+
+nav a:hover
+{
+	background-color: #3A1F1A;
+	color: #FBB865;
+	font-size: 35.5pt;
+}

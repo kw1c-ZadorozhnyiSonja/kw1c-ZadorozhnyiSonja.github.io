@@ -1,0 +1,47 @@
+/* Basic CSS setup */
+
+/* Fonts */
+@font-face {
+	src: url("../fonts/apercu_bold_italic_pro.otf");
+	font-family: "apercu-bold-italic";
+}
+
+@font-face {
+	src: url("../fonts/apercu_bold_pro.otf");
+	font-family: "apercu-bold";
+}
+
+@font-face {
+	src: url("../fonts/apercu_medium_italic_pro.otf");
+	font-family: "apercu-medium-italic";
+}
+
+@font-face {
+	src: url("../fonts/apercu_medium_pro.otf");
+	font-family: "apercu-medium";
+}
+
+@font-face {
+	src: url("../fonts/apercu_regular_italic_pro.otf");
+	font-family: "apercu-italic";
+}
+
+@font-face {
+	src: url("../fonts/apercu_regular_pro.otf");
+	font-family: "apercu";
+}
+
+/* Layout setup */
+body, ul
+{
+	margin: 0;
+	padding: 0;
+	font-family: "apercu", serif;
+	color: #3A1F1A;
+}
+
+a
+{
+	color: #3A1F1A;
+	text-decoration: none;
+}

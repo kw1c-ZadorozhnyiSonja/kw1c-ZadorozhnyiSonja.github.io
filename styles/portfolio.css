@@ -1,0 +1,103 @@
+#image-previewer
+{
+	display: none;
+	position: fixed;
+	left: -0.5vw;
+	top: -0.5vh;
+	z-index: 99;
+	background-color: rgba(77,47,35,0);
+	width: 101vw;
+	height: 101vh;
+}
+
+#preview-image
+{
+	display: block;
+	margin: 5vh auto;
+	width: auto;
+	height: 50%;
+	background-color: green;
+}
+
+#close-preview
+{
+	display: block;
+	position: fixed;
+	height: 15vh;
+	right: -5vh;
+	bottom: -2.5vh;
+}
+
+#close-preview img
+{
+	height: 100%;
+}
+
+#portfolio-image-container
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 25vh;
+}
+
+#left-image-container, #center-image-container, #right-image-container
+{
+	display: flex;
+	justify-content: center;
+}
+
+#left-image-container, #right-image-container
+{
+	width: 25%;
+	height: 75%;
+	align-items: center;
+}
+
+#center-image-container
+{
+	width: 40%;
+	height: 100%;
+	z-index: 2;
+}
+
+#left-image-container a, #left-image, #right-image-container a, #right-image
+{
+	height: 85%;
+}
+
+#center-image
+{
+	height: 75%;
+}
+
+#arrow-container
+{
+	display: flex;
+	flex-direction: row;
+	height: 5vh;
+}
+
+#left-button, #right-button
+{
+	display: block;
+}
+
+#left-button img, #right-button img
+{
+	height: 5vh;
+}
+
+#right-button
+{
+	margin-left: auto;
+}
+
+/* #left-image, #center-image, #right-image
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+*/

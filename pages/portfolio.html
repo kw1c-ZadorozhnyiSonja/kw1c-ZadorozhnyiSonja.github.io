@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Sonias Portfolio</title>
+
+	<!-- Scripts -->
+	<script src="../scripts/mobile.js" defer></script>
+	<script src="../scripts/portfolio_library.js" defer></script>
+	<script src="../scripts/preview.js" defer></script>
+	
+    <link rel="stylesheet" href="../styles/style.css">
+	<link rel="stylesheet" href="../styles/portfolio.css">
+  </head>
+  <body>
+	<!-- Image previewer, only visible when previewing an image -->
+	<div id="image-previewer">
+		<img id="preview-image" src="">
+		
+		<a id="close-preview" href="#" onclick="PreviewImage()"><img src="../images/close.png"></a>
+	</div>
+	
+	<!-- Foreground -->
+	<img id="foreground-top" src="../images/top.png">
+	<img id="foreground-bottom" src="../images/bottom.png">
+	
+	<!-- Header -->
+	<header id="menu">
+		<div id="title-container">
+			<img src="../images/naam.png">
+		</div>
+		<div id="title-container-mobile">
+			<img src="../images/naam-mobile.png">
+		</div>
+		<nav>
+			<ul>
+				<li>
+					<a href="../index.html">HOME</a>
+				</li>
+				<li>
+					<a href="portfolio.html">PORTFOLIO</a>
+				</li>
+				<li>
+					<a href="aboutme.html">OVER MIJ</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main id="main">
+		<div id="page-title-container">
+			<h1>Portfolio</h1>
+		</div>
+		<div id="main-container">
+			<div id="arrow-container">
+				<a id="left-button" href="javascript:void(0)" onclick="ChangeImage('left')"><img src="../images/left.png"></a>
+				<a id="right-button" href="javascript:void(0)" onclick="ChangeImage('right')"><img src="../images/right.png"></a>
+			</div>
+			<div id="portfolio-image-container">
+				<div id="left-image-container">
+					<a href="javascript:void(0)" onclick="PreviewImage('left')"><img src="" id="left-image"></a>
+				</div>
+				<div id="center-image-container">
+					<a href="javascript:void(0)" onclick="PreviewImage('center')"><img src="" id="center-image"></a>
+				</div>
+				<div id="right-image-container">
+					<a href="javascript:void(0)" onclick="PreviewImage('right')"><img src="" id="right-image"></a>
+				</div>
+			</div>
+			<div id="portfolio-text-container">
+				<h1 id="work-title">testtitle</h1>
+				<p id="work-date">testdate</p>
+				<p id="work-description">testdesc<p>
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<a id="menu-button" href="#" onclick="MenuToggle()"><img src="../images/menubutton.png"></a>
+	</footer>
+  </body>
+</html>
